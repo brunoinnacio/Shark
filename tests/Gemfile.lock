@@ -59,6 +59,7 @@ GEM
       cucumber-messages (~> 13.0, >= 13.0.1)
     diff-lcs (1.4.4)
     fastri (0.3.1.1)
+    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -69,6 +70,8 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.2)
     multi_test (0.1.2)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.2)
@@ -135,6 +138,7 @@ GEM
     zeitwerk (2.4.0)
 
 PLATFORMS
+  universal-darwin-20
   x64-mingw32
 
 DEPENDENCIES
@@ -150,4 +154,4 @@ DEPENDENCIES
   site_prism
 
 BUNDLED WITH
-   2.1.4
+   2.2.11

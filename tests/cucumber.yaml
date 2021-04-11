@@ -1,4 +1,4 @@
-default: -p html -p bdd -p json
+default: -p html -p bdd -p json --publish 
 html: --format html --out=features.html
 dot: --format progress
 bdd: --format pretty
