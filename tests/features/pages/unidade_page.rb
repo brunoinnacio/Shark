@@ -1,5 +1,5 @@
 # class para testar checkbox
-class UnidePage < SitePrism::Page
+class HomePage < SitePrism::Page
   set_url 'https://www.fleury.com.br/'
 
   element :campo_filtro, '#checkoox-select-facilities'
@@ -7,7 +7,7 @@ class UnidePage < SitePrism::Page
   element :checkbox_vacinacao, 'label[for="_Vacinação"]'
   element :checkbox_Atendimento, 'label[for="_Atendimento aos domingos"]'
 
-  def checkbox
+  def seleciona_facilidades
     campo_filtro.click
     checkbox_bicicletario.click
     checkbox_vacinacao.click

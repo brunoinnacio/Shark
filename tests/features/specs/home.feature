@@ -1,16 +1,16 @@
 # language: pt
 
 
-Funcionalidade: Validar Unidade
+Funcionalidade: Validar o nome da Unidade
 
-Cenario:Validar a unidade com sucesso.
+Cenario:Validar nome da unidade com sucesso.
 
 Dado que estou na Paginal Inicial
 
-E  Clico em unidade
+E clico em unidade
 
 Quando Seleciono as Facilidades
 
-E clico em Ver detalhar
+E seleciono na unidade Alphaville
 
-Então Deverá aparecer República do Líbano I
+Então Deverá aparecer o nome da unidade Alphaville

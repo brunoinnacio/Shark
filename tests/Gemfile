@@ -3,9 +3,14 @@ gem 'capybara'
 gem 'chromedriver-helper'
 gem 'cucumber'
 gem 'rspec'
+gem "allure-rspec"
 gem 'rubocop'
 gem 'selenium-webdriver'
 gem 'site_prism'
 gem 'fastri'
 gem 'rcodetools'
 gem 'report_builder'
+gem 'rake'
+gem 'json'
+
+
